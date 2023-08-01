@@ -1,0 +1,77 @@
+
+body 
+{
+
+background-image: url("");
+
+background-position: center;
+color :black; 
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#form1
+{
+  
+  border:  20px solid darkred;
+  border-radius: 20px;
+  padding-top: 20px
+
+
+}
+
+
+
+input:focus {
+  background-color: indianred;
+}
+
+ tr,th,td {
+  text-align: center ;
+ border: 6px solid darkred;
+  border-radius: 5px;
+ 
+  padding: 20px; 
+ 
+}
+
+#table1  
+{
+   border: 6px solid darkred;
+    border-radius: 20px;
+    border-collapse: collapse;
+    padding-top: 0px; 
+
+}
+
+img:hover
+{
+    opacity: 0.5;
+
+}
+
+#button
+{
+	padding: 15px 32px;
+	margin: 20px;
+  font-weight: bold;
+  color: darkred;
+  border: none;
+  border-radius: 20px;
+
+}
+
+
+
+#reloader
+{
+
+    padding: 15px 32px;
+  margin: 20px;
+  font-weight: bold;
+  color: darkred;
+  border: none;
+  border-radius: 20px;
+}

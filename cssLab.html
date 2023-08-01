@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Registration</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body id="bodyId" onload=time()>
+    <script type="text/javascript" src="javascriptLab.js"></script>
+
+
+
+
+<center id="center1"> 
+
+<form id="form1"> 
+
+
+      <a href="aboutus.html"> <img src="download.png"  alt="brooklyn college Logo"></a>
+
+      <p id="timerP"> </p> 
+
+  <table id="table1">
+    <caption> <h1>  Please register for your course here : </h1> </caption>
+   <tr>
+    <th >Questions</th>
+    <th> Answers</th>
+  </tr>
+   
+   <tr>
+   <td> <label for="firstName"> First Name </label> </td>
+   <td>  <input type="text" id='fname' name="firstName" required> </td>
+    
+    <br>
+  </tr>
+  <tr>
+
+   <td>  <label for="lastName"> Last Name </label> </td>
+    <td> <input type="text" id="lname" name="lastName"> </td>
+  </tr>
+     
+     <br>
+   
+      <tr>
+
+      <td> <label for="date of birth"> Please provide date of birth: </label> </td>
+    <td> <input type="date" name="date of birth"></td>
+  </tr>
+     <br>
+
+
+   <tr>
+    <td> <label for="address"> Please insert address : </label></td>
+   <td>  <input type="text" name="address"> </td>
+ </tr>
+     <br> 
+
+     <tr>
+   <td>  <label for="phone number"> Please insert phone number: </label></td>
+    <td> <input type="tel" name=""></td>
+      </tr>
+
+      <tr> 
+        <td> <label for="gender"> Please insert Gender </label> </td>
+    <br>
+    <td> 
+     <input type="radio" name="gender"> 
+    <label for="male"> Male </label>
+
+      <input type="radio" name="gender"> 
+    <label for="female"> Female </label>
+
+
+    <input type="radio" name="gender"> 
+    <label for="others"> Others </label>
+    </td>
+    </tr>
+
+    <tr> 
+        <td> <label for="courses"> Choose a course </label> </td>
+        <td> 
+            <select>
+        <option>Math</option>
+        <option>Science</option>
+        <option>English</option>
+        <option>Geography</option>
+        <option>Language</option>
+
+
+    </select>
+     </td>
+
+
+    </tr>
+
+</table>
+
+<input type="submit" name="Submit" value="Submit" id="button" onclick="submitted()"> 
+<button onclick="location.reload()" id="reloader"> Reload page here </button>
+
+	</form>
+</center> 
+
+</body>
+</html>
